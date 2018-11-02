@@ -1,0 +1,4 @@
+require 'Grammar Analyzer'
+
+grammar = GrammarAnalyzer.new 
+puts grammar.analyze("../samples/Regular Grammar.jff", "aaaa")

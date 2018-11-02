@@ -1,0 +1,4 @@
+require 'Turing Analyzer'
+
+turing = TuringAnalyzer.new
+valid = turing.analyze "../samples/Turing Machine.jff", "B0110B"

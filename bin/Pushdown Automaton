@@ -1,0 +1,4 @@
+require 'PDA'
+
+ndfa= PDAAnalyzer.new
+puts ndfa.analyze("../samples/Pushdown.jff", "aabb")

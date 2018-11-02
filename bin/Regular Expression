@@ -1,0 +1,4 @@
+require 'Regular Expression'
+
+regex = RegularExpression.new
+puts regex.analyze("../samples/Regular Expression.jff", "ab")

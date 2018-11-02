@@ -1,0 +1,4 @@
+require 'Automaton Analyzer'
+
+faa = AutomatonAnalyzer.new true
+puts faa.analyze("../samples/Deterministic Finite Automaton.jff", "abc")

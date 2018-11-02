@@ -1,0 +1,5 @@
+require 'Automaton Analyzer'
+
+
+faa = AutomatonAnalyzer.new false
+puts faa.analyze("../samples/Nondeterministic.jff", "ab")
